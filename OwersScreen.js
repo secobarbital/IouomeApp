@@ -71,11 +71,12 @@ var OwersScreen = React.createClass({
 var styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    flexDirection: 'column',
+    alignItems: 'stretch',
     backgroundColor: '#F5FCFF',
   },
   ower: {
+    flex: 1,
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
